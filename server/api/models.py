@@ -1,0 +1,8 @@
+from typing import Any
+from django.db import models
+class Book(models.Model):
+    book_title = models.CharField(max_length=50)
+    release_year = models.IntegerField()
+    def __str__(self) -> str:
+        return self.BookTitle
+# Create your models here.

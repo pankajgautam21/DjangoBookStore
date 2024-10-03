@@ -1,0 +1,5 @@
+server/myworld/
+
+# Ignore other common files like compiled Python files and environment variables
+*.pyc
+__pycache__/
